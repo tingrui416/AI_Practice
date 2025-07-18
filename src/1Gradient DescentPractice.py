@@ -30,7 +30,6 @@ for t in range(1000):
     c -= learning_rate * grad_c
     d -= learning_rate * grad_d
 
-
 print(f'Result: y = {a} + {b} x + {c} x^2 + {d} x^3')
 
 
