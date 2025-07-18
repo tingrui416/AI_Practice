@@ -18,6 +18,7 @@ for t in range(2000):
     if t % 100 ==99:
         print(t,loss)
 
+
     grad_y_pred = 2.0*(y_pred - y)
     grad_a = grad_y_pred.sum()
     grad_b = (grad_y_pred * x).sum()
